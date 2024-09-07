@@ -14,9 +14,9 @@ module.exports = {
         "accent-orange": "#F6CF68",
         "accent-green": "#C2E9B4",
       },
-      backgroundImage: (theme) => ({
+      backgroundImage: () => ({
         "gradient-gradual":
-          "linear-gradient(180dg, rgba(116, 116, 116, 0) 66.15%, #000000 100%)",
+          "linear-gradient(180deg, rgba(116, 116, 116, 0) 66.15%, #000000 100%)",
       }),
     },
     screens: {
