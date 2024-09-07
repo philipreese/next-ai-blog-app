@@ -2,7 +2,7 @@ import Card from "./Card";
 
 const Other = () => {
   return (
-    <section className="mt-10">
+    <section className="pt-4 mb-10">
       <hr className="border-1" />
       {/* HEADER */}
       <p className="font-bold text-2xl my-8">Other Trending Posts</p>
