@@ -8,4 +8,4 @@ export type FormattedPost = {
   author: string;
   image: string;
   snippet: string;
-};
+} | null;

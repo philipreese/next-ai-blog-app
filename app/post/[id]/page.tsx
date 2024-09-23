@@ -33,6 +33,10 @@ const Post = async ({ params }: Props) => {
   const { id } = params;
   const post: FormattedPost = await getPost(id);
 
+  if (!post) {
+    return <div>Post Not Found</div>;
+  }
+
   return (
     <main className="px-10 leading-7">
       <div className="md:flex gap-10 mb-5">
