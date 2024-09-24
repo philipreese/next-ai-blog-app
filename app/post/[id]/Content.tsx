@@ -157,6 +157,8 @@ const Content = ({ post }: Props) => {
           contentError={contentError}
           editor={editor}
           isEditable={isEditable}
+          setContent={setContent}
+          title={title}
         />
 
         {/* SUBMIT BUTTON */}
