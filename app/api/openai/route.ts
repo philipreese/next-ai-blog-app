@@ -12,7 +12,7 @@ export async function POST(request: Request) {
       messages: [
         {
           role: "user",
-          content: `Create small blog post with html tags based on this title: ${title} and in this style of a writer: ${role}`,
+          content: `Create a 3 line blog post with html tags based on this title: ${title} and in this style of a writer: ${role}`,
         },
         {
           role: "system",
