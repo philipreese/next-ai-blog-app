@@ -13,3 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Database
 
 Hosted on Supabase
+
+## Deployment
+
+Deployed at: https://next-ai-blog-app-nine.vercel.app/
